@@ -47,9 +47,70 @@
 									<h1>Querying Employee's Database</h1>
 									<p>SQL Queries to Populate Details on Employee Information From the <br> Company's Employee Database to Answer Questions</p>
 								</header>
-								<div class="image main"><img src="images/employee_info_dataset.png" alt="" /></div>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
+								<!-- <div class="image main"><img src="images/employee_info_dataset.png" alt="" /></div> -->
+								<iframe src="./sql_employee_Info.html" width="100%" height="500px" style="border:none;"></iframe>
+								<p><em style="color: #8b949e;">Note: You can scroll through my SQL code above or view it on my Github via the link below.</em></p>
+								<hr>
+								<p><strong>SQL Code:</strong> <span><a href="https://github.com/donboab/samuel.portfolio/blob/main/assets/projects/emplyee_info.sql" target="_blank" rel="noopener noreferrer">Employee Info SQL Code</a></span></p>
+								<h3>SQL Skills Used:</h3>
+								<p>
+									<ul>
+										<li><strong> Data Retrieval & Filtering:</strong> SELECT, WHERE, IN, NOT IN, BETWEEN, LIKE.</li>
+										<li><strong>String Manipulation:</strong> UPPER(), CONCAT(), SUBSTRING(), CHARINDEX(), LTRIM(), RTRIM(), COALESCE().
+										</li>
+										<li><strong>Date Handling:</strong> GETDATE(), CONVERT(), YEAR(), MONTH(), DAY(), DATEPART().
+										</li>
+										<li><strong>Aggregations & Grouping:</strong> COUNT(), GROUP BY, ORDER BY, HAVING.
+										</li>
+										<li><strong>Join Operations:</strong> INNER JOIN, RIGHT JOIN (to combine employee info with salary/position data).
+										</li>
+										<li><strong>Window Functions:</strong> RANK() OVER (ORDER BY ...) for top N salary rankings.
+										</li>
+										<li><strong>CTEs (Common Table Expressions):</strong>Used for intermediate logic and readable subqueries. 
+										</li>
+										<li><strong>Table Creation:</strong> SELECT INTO for creating new tables from existing datasets.
+										</li>
+										<li><strong>Result Set Union:</strong> UNION ALL to combine top and bottom salary data.
+										</li>
+										<li><strong>Alias Usage:</strong> Clear column and table aliasing for improved readability
+										</li>
+										<li><strong>Data Validation & Cleaning:</strong> Ensuring correct data types and consistent formatting for reliable analysis (implicit skill in query design)
+										</li>
+									</ul>
+								</p>
+								<h3>Project Description</h3>
+								<p>This project demonstrates the use of structured query language (SQL) to analyze and extract actionable insights from a relational database containing employee records. The objective was to apply real-world SQL techniques to solve common business and HR-related queries, including workforce segmentation, salary analysis, and data transformation. The analytical focus areas are:
+									<p><strong>Data Structure & Tables:</strong></p>
+									<p>The analysis was based on two relational tables; (Employee_Info and Employee_Position). These table contains employee demographic details, departmental affiliations, job roles, compensation data etc.</p>
+									<p><strong>Query Objective Areas:</strong></p>
+									
+									<ul>
+										<li>Data formatting and transformation (e.g., name casing, string parsing).
+										</li>
+										<li>Filtering and pattern matching (e.g., employees with names starting or ending with specific letters).</li>
+										<li>Date manipulation and temporal analysis (e.g., filtering by date of birth or date of joining).
+										</li>
+										<li>Aggregation and grouping (e.g., department-wise employee count, gender-based segmentation).
+										</li>
+										<li>Salary and financial insights (e.g., range filters, top earners, min/max salary brackets).
+										</li>
+										<li>Table creation and joins for enriched analysis across tables.
+										</li>
+									</ul>
+									
+									<h3>Impact of the Project</h3>
+									<ul>
+										<li>Developed over 20 reusable SQL queries to support workforce and salary analysis.</li>
+										<li>Simulated real HR data tasks like employee segmentation, compensation analysis, and department summaries.</li>
+										<li>Delivered insights that can inform staffing decisions, compensation reviews, and talent analytics.
+										</li>
+									</ul>
+								</p>
+								<h3>Technology used:</h3>
+								 <p>SQL Server Management Studio (SSMS) for querying and analysis</p>
+								 <p>T-SQL (Transact-SQL)</p>
+								
+								<p><strong>View SQL File:</strong><a href="https://github.com/donboab/samuel.portfolio/blob/main/assets/projects/emplyee_info.sql" target="_blank" rel="noopener noreferrer"> Click to View Queries</a></p>
 							</section>
 
 					</div>

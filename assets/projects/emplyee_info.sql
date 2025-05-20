@@ -1,5 +1,3 @@
---S/N	Let us start by taking a look at some of the most frequently asked 
--- Query BY the management :
 --1	Write a query to fetch the EmpFname from the EmployeeInfo table
 --in the upper case and use the ALIAS name as EmpName.
 
